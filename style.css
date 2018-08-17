@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    list-style-type: none; 
+    font-family: "Helvetica";
+    background-color: #ffb134;
+    color: white;
+}
+
+
+li, .container {
+    background-color: rgba(255,255,255, 0.2);
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgba(0,0,0, 0.7);
+}
+
+.heading {
+    padding-top: 50px;
+    font-size: 2.5rem;
+}
+
+
+
+
+button, input {
+    border-radius: 5px;
+}
+
+.secondary-color {
+    color: #38ffa5;
+}
+
+
+.input-form, li {
+   width: 25rem; 
+}
+
+.input-form > *, .heading {
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+h3 {
+    margin-bottom: 15px;
+    color: black;
+    font-size: 1.5rem;
+}
+
+input, select {
+    height: 20px;
+    width: 100%; 
+}
+
+#add-btn {
+    margin-top: 20px;
+    width: 100%; 
+    padding: 5px 0; 
+    background-color: white; 
+    border-color: white;
+}
+
+
+
+
+
+
+li {
+    display: flex; 
+    flex-direction: column; 
+    margin: 20px;
+}
+
+.issue-status {
+    font-size: .7rem;
+    background-color: #38ffa5;
+    padding: 2px; 
+    border-radius: 5px;
+}
+
+.issue-top, .issue-bottom {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.issue-bottom {
+    margin-top: 20px;
+}
+
+
+.issue-priority {
+    align-self: center;
+    margin: 20px 0;
+}
+
+.issue-btn {
+    padding: 5px; 
+    margin-left: 5px;
+}
+
+.close-btn {
+    background: white;
+    background-color: white;
+}
+
+.delete-btn {
+    background-color: #ff5338;
+    border-color: #ff5338;
+}
+
+
+
+
+            
